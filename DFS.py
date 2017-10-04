@@ -15,5 +15,7 @@ def dfs(i):
         dfs(i2)
 
 
-for i in range(len(graph)):
-    dfs(i)
+if __name__ == "__main__":
+    print("Алгоритма поиска в глубину в графе\n","Для графа в виде списка смежности",graph)
+    for i in range(len(graph)):
+        dfs(i)
