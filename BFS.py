@@ -27,5 +27,8 @@ def bfs(i):
             passed[i2] = True
 
 
-for i in range(len(graph)):
-    bfs(i)
+if __name__ == "__main__":
+    print("Алгоритма поиска в ширину в графе\n","Для графа в виде списка смежности",graph)
+    for i in range(len(graph)):
+        bfs(i)
+
